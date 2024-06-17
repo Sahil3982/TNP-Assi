@@ -1,10 +1,15 @@
+import Course from "./Components/Course"
+import Navbar from "./Components/Navbar"
+
 function App() {
 
   return (
     <>
-    <div className="">
-      Hy
-    </div>
+   <div >
+   <Navbar />
+   <hr></hr>
+   <Course />
+   </div>
     </>
   )
 }
