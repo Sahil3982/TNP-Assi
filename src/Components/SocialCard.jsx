@@ -3,7 +3,7 @@ import CountUp from 'react-countup';
 
 const SocialCard = ({ src, followers }) => {
   return (
-    <div className='flex items-center justify-end w-32 md:w-32 border-2 border-white rounded-full'>
+    <div className='flex items-center justify-end w-28 md:w-32 border-2 border-white rounded-full'>
       <div className='px-1 text-2xl font-bold text-white'>
         <CountUp end={followers} duration={3.75} /> K+
       </div>
