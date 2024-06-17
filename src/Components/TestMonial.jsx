@@ -1,18 +1,17 @@
-import React from 'react'
-import Card from './Card'
+import React from 'react';
+import Card from './Card';
 
 const TestMonial = () => {
-    return (
-        <>
-            <center className='text-3xl font-extrabold text-blue'>Testimonials</center>  
-            <div className='flex'>
-            <Card />
-            <Card />
-            <Card />
+  return (
+    <>
+      <center className='text-4xl font-extrabold text-blue mb-5'>Testimonials</center>  
+      <div className='flex justify-center gap-4 px-4'>
+        <Card />
+        <Card />
+        <Card />
+      </div>
+    </>
+  );
+};
 
-            </div>
-        </>
-    )
-}
-
-export default TestMonial
+export default TestMonial;
