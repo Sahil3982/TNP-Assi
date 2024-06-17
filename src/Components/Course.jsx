@@ -13,11 +13,11 @@ const Course = () => {
             Learn from Our Experienced and Dedicated Instructors.
           </div>
         </div>
-        <div className='pt-5 md:pt-0 flex gap-2 self-center md:self-auto'>
-          <div className='bg-blue p-3 rounded-full text-white'>
+        <div className='pt-5 md:pt-0 flex gap-2 self-center  md:self-auto'>
+          <div className='bg-blue p-3 rounded-full h-max text-white'>
             <FaArrowLeft />
           </div>
-          <div className='bg-blue p-3 rounded-full text-white'>
+          <div className='bg-blue p-3 rounded-full h-max text-white'>
             <FaArrowRight />
           </div>
         </div>

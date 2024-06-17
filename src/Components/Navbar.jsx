@@ -32,7 +32,7 @@ const Navbar = () => {
           <a href="#" className='py-2 text-blue font-bold'>Mock Tests</a>
           <a href="#" className='py-2 text-blue font-bold'>Learning</a>
           <a href="#" className='py-2 text-blue font-bold'>About</a>
-          <div className='bg-blue text-white rounded-xl px-4 py-2 mt-2'>
+          <div className='bg-blue text-white rounded-full px-4 py-2 mt-2'>
             Get Started
           </div>
         </div>
