@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import React, { useState,useEffect } from 'react';
 import { FaArrowLeft, FaArrowRight } from 'react-icons/fa';
 
 const Course = () => {
@@ -34,6 +34,14 @@ const Course = () => {
   const handleNextClick = () => {
     setCurrentIndex((prevIndex) => (prevIndex === instructors.length - 1 ? 0 : prevIndex + 1));
   };
+
+  useEffect(() => {
+    const interval = setInterval(() => {
+      setCurrentIndex((prevIndex) => (prevIndex === instructors.length - 1 ? 0 : prevIndex + 1));
+    }, 1500);
+
+    return () => clearInterval(interval);
+  }, [instructors.length]);
 
   const currentInstructor = instructors[currentIndex];
 
