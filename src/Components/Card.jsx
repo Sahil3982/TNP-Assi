@@ -2,17 +2,17 @@ import React from 'react';
 
 const Card = () => {
   return (
-    <div className='bg-gray-200 p-4 m-4 md:m-10 rounded-lg'>
-      <div className='flex md:flex-row justify-between items-center'>
-        <div className='mb-2 md:mb-0'>
-          <img src='profile.png' className='w-12 h-auto' alt='Instructor' />
+    <div className='bg-gray-200 p-4 m-4 rounded-lg shadow-md w-64'>
+      <div className='flex flex-row items-center'>
+        <div className='flex-shrink-0'>
+          <img src='profile.png' className='w-12 h-auto rounded-full' alt='Instructor' />
         </div>
-        <div className='text-2xl text-blue font-semibold mt-2 md:mt-0'>
+        <div className='ml-4 text-2xl text-blue-500 font-semibold'>
           Learner Name
         </div>
       </div>
-      <div className='mt-2 md:mt-4'>
-        Lorem ipsum dolor sit amet,<br></br> consectetur adipiscing elit. Phasellus ultricies velit vel mi feugiat, ac feugiat eros suscipit. Vivamus nec vehicula placerat sed quis nulla.
+      <div className='mt-4 text-gray-700'>
+        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus ultricies velit vel mi feugiat, ac feugiat eros suscipit. Vivamus nec vehicula placerat sed quis nulla.
       </div>
     </div>
   );
