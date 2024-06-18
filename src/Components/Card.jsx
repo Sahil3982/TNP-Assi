@@ -7,7 +7,7 @@ const Card = () => {
         <div className='flex-shrink-0'>
           <img src='profile.png' className='w-12 h-auto rounded-full' alt='Instructor' />
         </div>
-        <div className='ml-4 text-2xl text-blue-500 font-semibold'>
+        <div className='ml-4  text-blue-500 font-semibold'>
           Learner Name
         </div>
       </div>

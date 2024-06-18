@@ -15,12 +15,12 @@ const Course = () => {
     },
     {
       name: 'Instructor Three',
-      position: 'Junior Instructor @tnpofficer',
+      position: 'Experienced Instructor @tnpofficer',
       description: 'Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae; Donec velit neque, auctor sit amet aliquam vel, ullamcorper sit amet ligula. Sed porttitor lectus nibh. Nulla porttitor accumsan tincidunt.',
     },
     {
       name: 'Instructor Four',
-      position: 'Junior Instructor @tnpofficer',
+      position: 'Pro Instructor @tnpofficer',
       description: 'Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae; Donec velit neque, auctor sit amet aliquam vel, ullamcorper sit amet ligula. Sed porttitor lectus nibh. Nulla porttitor accumsan tincidunt.',
     },
   ];
@@ -58,9 +58,9 @@ const Course = () => {
         </div>
       </div>
       <div className='border-black border-solid border-2 mt-4'></div>
-      <div className='flex flex-col md:flex-row justify-between p-8 items-center md:items-start'>
+      <div className='flex flex-col md:flex-row justify-between gap-10 p-8 items-center md:items-start'>
         <div className='mb-6 md:mb-0'>
-        <img src='profile.png' className='w-48 md:w-64 h-auto' alt='Instructor' />
+        <img src='profile.png' className='w-64 md:w-96 h-auto' alt='Instructor' />
         </div>
         <div className='text-center md:text-left'>
           <b className='text-blue text-2xl'>{currentInstructor.name}</b><br />
