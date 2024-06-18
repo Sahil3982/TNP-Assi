@@ -38,7 +38,7 @@ const Course = () => {
   const currentInstructor = instructors[currentIndex];
 
   return (
-    <div className='bg-gray-100 h-auto md:h-full rounded-xl mx-5 my-16 md:mx-20 p-6'>
+    <div className='bg-gray-100 h-auto md:h-full rounded-xl mx-5 my-16 md:mx-20 p-6 '>
       <div className='flex flex-col md:flex-row justify-between pr-5'>
         <div>
           <div className='text-blue text-3xl md:text-4xl font-bold'>
@@ -49,10 +49,10 @@ const Course = () => {
           </div>
         </div>
         <div className='pt-5 md:pt-0 flex gap-2 self-center md:self-auto'>
-          <div className='bg-blue p-3 rounded-full h-max text-white cursor-pointer' onClick={handlePrevClick}>
+          <div className='bg-blue p-3 rounded-full h-max text-white cursor-pointer hover:bg-white hover:text-blue hover:border-2 hover:border-blue hover:scale-110 transition-transform duration-300' onClick={handlePrevClick}>
             <FaArrowLeft />
           </div>
-          <div className='bg-blue p-3 rounded-full h-max text-white cursor-pointer' onClick={handleNextClick}>
+          <div className='bg-blue p-3 rounded-full h-max text-white cursor-pointer hover:bg-white hover:text-blue hover:border-2 hover:border-blue hover:scale-110 transition-transform duration-300' onClick={handleNextClick}>
             <FaArrowRight />
           </div>
         </div>

@@ -2,7 +2,7 @@ import React from 'react';
 
 const Card = () => {
   return (
-    <div className='bg-gray-200 p-4 m-4 rounded-lg shadow-md w-64'>
+    <div className='bg-gray-200 p-4 m-8 rounded-lg shadow-md w-64 bold hover:scale-110 transition-transform duration-400'>
       <div className='flex flex-row items-center'>
         <div className='flex-shrink-0'>
           <img src='profile.png' className='w-12 h-auto rounded-full' alt='Instructor' />

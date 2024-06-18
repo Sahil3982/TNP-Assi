@@ -9,13 +9,13 @@ const Navbar = () => {
         <img src='logo.png' className='w-32 object-contain' alt='Logo' />
       </div>
       <div className='hidden md:flex justify-around gap-4 text-blue font-bold'>
-        <a href="#">Home</a>
-        <a href="#">Internships</a>
-        <a href="#">Mock Tests</a>
-        <a href="#">Learning</a>
-        <a href="#">About</a>
+        <a href="#" className='hover:scale-110 transition-transform duration-400'>Home</a>
+        <a href="#" className='hover:scale-110 transition-transform duration-400'>Internships</a>
+        <a href="#" className='hover:scale-110 transition-transform duration-400'>Mock Tests</a>
+        <a href="#" className='hover:scale-110 transition-transform duration-400'>Learning</a>
+        <a href="#" className='hover:scale-110 transition-transform duration-400'>About</a>
       </div>
-      <div className='hidden md:block bg-blue text-white rounded-xl px-4 py-1'>
+      <div className='hidden md:block bg-blue text-white rounded-full px-4 py-1 m-1  hover:bg-white hover:text-blue hover:border hover:scale-110 transition-transform duration-400'>
         Get Started
       </div>
       <div className='md:hidden flex items-center'>
@@ -27,12 +27,12 @@ const Navbar = () => {
       </div>
       {isOpen && (
         <div className='absolute top-16 left-0 w-full bg-white shadow-md md:hidden flex flex-col items-center'>
-          <a href="#" className='py-2 text-blue font-bold'>Home</a>
-          <a href="#" className='py-2 text-blue font-bold'>Internships</a>
-          <a href="#" className='py-2 text-blue font-bold'>Mock Tests</a>
-          <a href="#" className='py-2 text-blue font-bold'>Learning</a>
-          <a href="#" className='py-2 text-blue font-bold'>About</a>
-          <div className='bg-blue text-white rounded-full px-4 py-2 mt-2'>
+          <a href="#" className='py-2 text-blue font-bold hover:scale-110 transition-transform duration-400'>Home</a>
+          <a href="#" className='py-2 text-blue font-bold hover:scale-110 transition-transform duration-400'>Internships</a>
+          <a href="#" className='py-2 text-blue font-bold hover:scale-110 transition-transform duration-400'>Mock Tests</a>
+          <a href="#" className='py-2 text-blue font-bold hover:scale-110 transition-transform duration-400'>Learning</a>
+          <a href="#" className='py-2 text-blue font-bold hover:scale-110 transition-transform duration-400'>About</a>
+          <div className='bg-blue text-white rounded-full px-4 py-2 mt-2  hover:bg-white hover:text-blue hover:border hover:scale-110 transition-transform duration-400'>
             Get Started
           </div>
         </div>
