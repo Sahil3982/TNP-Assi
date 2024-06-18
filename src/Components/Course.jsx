@@ -38,7 +38,7 @@ const Course = () => {
   const currentInstructor = instructors[currentIndex];
 
   return (
-    <div className='bg-gray-100 h-auto md:h-full rounded-xl mx-5 my-16 md:mx-20 p-6 '>
+    <div className='bg-gray-100 h-auto md:h-full  shadow-lg rounded-xl mx-5 my-16 md:mx-20 p-6 '>
       <div className='flex flex-col md:flex-row justify-between pr-5'>
         <div>
           <div className='text-blue text-3xl md:text-4xl font-bold'>
